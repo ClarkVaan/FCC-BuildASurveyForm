@@ -16,13 +16,14 @@
                     <label for="email" id="email-label">Email
                     <input type="email" id="email" required placeholder="Type your email here"></label>
                     <label for="number" id="number-label">Age
-                    <input type="number" id="number" min="13" max="120" placeholder="13"></label>
-                    <p>What is your previous industry?</p>
-                    <select id="dropdown" name="previous-industry">
+                    <input type="number" id="number" min="13" max="120" placeholder="13" required></label>
+                    <label>What is your previous industry?
+                    <select id="dropdown" name="previous-industry" required>
                         <option value="0">Select one</option>
                         <option value="1">Software Development</option>
                         <option value="2">Web Development</option>
                     </select>
+                    </label>
                     <p>Are you willing to come to the office at least once a week?</p>
                         <label for="remote-yes" class="selection"><input type="radio" name="remote" id="remote-yes" value="yes" class="compact"> Yes</label>
                         <label for="remote-no" class="selection"><input type="radio" name="remote" id="remote-no" value="no" class="compact"> No</label>
